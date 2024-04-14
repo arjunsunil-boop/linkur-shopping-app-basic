@@ -29,3 +29,13 @@
   min-width: 100%;
   min-height: 100%;
 }
+
+.deals-heading {
+  font-size: 2em; 
+  text-align: left; 
+  color: #333; 
+  font-weight: bold; 
+  padding: 20px; 
+ 
+  border-radius: 10px; 
+}
