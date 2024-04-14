@@ -20,13 +20,13 @@ const Home = () => {
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-17032024-MainBannerDailyChanging-Z1-P2-dnmx-netplay-min60.jpg" class="d-block w-100" alt="..." />
+                                            <img src="/Imgs/1.jpg" class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-1732024-MainBannerDailyChanging-Z1-P3-kiana-gulmohar-flat65.jpg" class="d-block w-100" alt="..." />
+                                            <img src="/Imgs/2.jpg" class="d-block w-100" alt="..." />
                                         </div>
                                         <div class="carousel-item">
-                                            <img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-17022024-TopBrandBanner-Z3-P6-Puma-MIN50.jpg" class="d-block w-100" alt="..." />
+                                            <img src="/Imgs/3.jpg" class="d-block w-100" alt="..." />
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -104,7 +104,7 @@ const Home = () => {
                         <div className="row g-3">
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                            <a href="/view" class="btn btn-primary">More</a>
+                                <a href="/view" class="btn btn-primary">More</a>
 
 
                             </div>
