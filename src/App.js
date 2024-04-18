@@ -6,6 +6,7 @@ import Search from './components/Search';
 import Home from './components/Home';
 import ViewProducts from './components/ViewProducts';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AddProducts from './components/AddProducts';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/Buy' element={<Buyproducts/>}/>
         <Route path='/Search' element={<Search/>} />
         <Route path='/view' element={<ViewProducts/>}/>
+        <Route path='/add' element={<AddProducts/>}/>
       </Routes>
       
       </BrowserRouter>

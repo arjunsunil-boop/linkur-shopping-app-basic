@@ -13,6 +13,7 @@
 .card-text {
   height: 100px; 
   overflow-y: auto;
+
 }
 .card-title {
   white-space: nowrap;
@@ -38,8 +39,9 @@
   font-size: 2em; 
   text-align: left; 
   color: #333; 
-  font-weight: bold; 
+  font-weight: normal;
   padding: 20px; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  
   border-radius: 10px; 
 }

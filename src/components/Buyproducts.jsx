@@ -5,6 +5,7 @@ const Buyproducts = () => {
     return (
         <div>
             <Navbar/>
+         <br /><br />
 
             <div className="container">
                 <div className="row">

@@ -249,6 +249,7 @@ const Home = () => {
     return (
         <div>
             <Navbar />
+            <br /><br />
             <div className="container">
 
                 <div className="row g-3">
@@ -319,12 +320,22 @@ const Home = () => {
                         </div>
                         <br /><br />
                         <div className="row g-3">
-                            <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                
 
-                                <a href="/view" class="btn btn-primary">More</a>
+                        <h4>Find more deals by clicking the button below!!</h4>
 
 
                             </div>
+                            <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                
+
+                                <a href="/view" class="btn btn-info">More deals</a>
+                                <br /><br />
+
+
+                            </div>
+                            <br /><br />
                         </div>
                     </div>
                 </div>
