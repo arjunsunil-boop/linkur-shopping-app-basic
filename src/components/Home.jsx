@@ -292,25 +292,25 @@ const Home = () => {
                             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                                 <p className="deals-heading">Deals!</p>
-                                <div className="row g-3">
+                                <div className="row g-5">
 
                                     {
-    products.slice(0, 5).map((product) => {
-        return (
-            <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                <div className="card">
-                    <img src={product.image} className="card-img-top product-image" alt="..." />
-                    <div className="card-body">
-                        <h5 className="card-title">{product.title}</h5>
-                        <p className="card-text">{product.description}</p>  
-                        <p>Rs.{product.price}</p>
-                        <a href="/Buy" className="btn btn-primary">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-        );
-    })
-}
+                                        products.slice(0, 5).map((product) => {
+                                            return (
+                                                <div className="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                                                    <div className="card">
+                                                        <img src={product.image} className="card-img-top product-image" alt="..." />
+                                                        <div className="card-body">
+                                                            <h5 className="card-title">{product.title}</h5>
+                                                            <p className="card-text">{product.description}</p>
+                                                            <p>Rs.{product.price}</p>
+                                                            <a href="/Buy" className="btn btn-info">Buy Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            );
+                                        })
+                                    }
 
                                 </div>
 

@@ -3,8 +3,12 @@
   flex-direction: column;
 }
 
-.card-body {
-  flex: 1;
+.card{
+  transition: all 0.3s ease, box-shadow 0.1s ease;
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transform: scale(1.05); 
 }
 .card-text {
   height: 100px; 
@@ -17,11 +21,11 @@
 
 }
 .card-img-top {
-  display: flex;
+ 
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  height: 200px; 
+  height: 250px; 
 }
 
 .card-img-top img {

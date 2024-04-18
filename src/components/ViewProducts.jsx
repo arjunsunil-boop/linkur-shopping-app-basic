@@ -265,7 +265,7 @@ const ViewProducts = () => {
                                                 <h5 className="card-title">{product.title}</h5>
                                                 <p className="card-text">{product.description}</p>  
                                                     <p>Rs.{product.price}</p>
-                                                <a href="/Buy" class="btn btn-primary">Buy Now</a>
+                                                <a href="/Buy" class="btn btn-info">Buy Now</a>
                                             </div>
                                         </div>
                                     </div>
